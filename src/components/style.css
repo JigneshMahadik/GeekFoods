@@ -310,3 +310,42 @@
     margin-top: 1rem;
     margin-bottom: 1.25rem;
 }
+
+
+
+
+/* Restaurants */
+.restaurants-wrapper{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#rest-cont{
+    width: 300px;
+    /* background-color: yellowgreen; */
+    margin: 2rem;
+    /* max-width: 18rem; */
+}
+#rest-img{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+#rest-subcont{
+    margin-top: -4px;
+    background-color: rgb(234, 227, 234);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+#rest-label{
+    color: rgb(39, 67, 151);
+    font-weight: 700;
+    cursor: pointer;
+}
+.visit-menu{
+    text-decoration: none;
+}
