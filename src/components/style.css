@@ -349,3 +349,31 @@
 .visit-menu{
     text-decoration: none;
 }
+
+
+/* Subcategory */
+#subcate-wrapper{
+    display: flex;
+    /* background-color: red; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#subcate-cont{
+    width: 300px;
+    margin: 2rem;
+    /* background-color: yellowgreen; */
+    /* border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; */
+}
+#subcate-img{
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+#subcate-name{
+    padding: 10px;
+    background-color: rgb(234, 227, 234);
+    margin-top: -4px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
