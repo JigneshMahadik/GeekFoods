@@ -377,3 +377,14 @@
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
 }
+
+#filter{
+    width: 200px;
+    margin: 2rem;
+    padding: 0.5rem;
+}
+#notFound{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: red;
+}
